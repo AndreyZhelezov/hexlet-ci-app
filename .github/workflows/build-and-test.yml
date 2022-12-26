@@ -10,9 +10,6 @@ jobs:
       - name: Setup
         run: make setup
 
-      - name: Start
-        run: make start
-
       - name: Test
         run: make test
 
